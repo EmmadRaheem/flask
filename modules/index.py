@@ -9,5 +9,5 @@ from app import app
 # Define route "/" & "/<name>"
 @app.route("/")
 @app.route("/<name>")
-def index(name='Anonymous'):
+def index(name='Emmad Raheem'):
     return f"Hello {name}!!"
